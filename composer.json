@@ -1,0 +1,25 @@
+{
+    "name": "dnkmdg/slugifyer",
+    "description": "Makes transliterable slugs from string",
+    "type": "librar",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dnkmdg\\Slugifyer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Källstrand Modig",
+            "email": "daniel.modig@me.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^3.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
